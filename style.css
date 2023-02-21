@@ -1,8 +1,18 @@
 .title {
-    background-color: #1f2937;
-    color: white;
     display: flex;
     justify-content: space-evenly;
+    margin: 0;
+    color: #f9faf8
+}
+
+.header {
+    background-color: #1f2937;
+    padding-bottom: 100px;
+}
+
+.title h2 {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .title ul {
@@ -12,8 +22,25 @@
     list-style: none;
 }
 
+li {
+    text-align: center;
+}
+
 .body1 {
     background-color: #1f2937;
     color: white;
     margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 300px;
+}
+
+.sign-up p{ 
+    width: 300px;
 }
