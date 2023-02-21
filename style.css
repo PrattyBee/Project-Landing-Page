@@ -1,0 +1,19 @@
+.title {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+}
+
+.body1 {
+    background-color: #1f2937;
+    color: white;
+    margin: 0;
+}
