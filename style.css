@@ -24,6 +24,7 @@
 
 li {
     text-align: center;
+    margin-top: 10px;
 }
 
 .body1 {
@@ -31,7 +32,8 @@ li {
     color: white;
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 250px;
 }
 
 .sign-up h2{
@@ -39,8 +41,24 @@ li {
     font-weight: bolder;
     color: #f9faf8;
     width: 300px;
+    margin-bottom: 0;
 }
 
 .sign-up p{ 
-    width: 300px;
+    width: 350px;
+    margin-top: 0;
+}
+
+.sign-up button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.body1 img {
+    display: block;
+    margin-top: 50px;
 }
