@@ -82,3 +82,12 @@ li {
     color: #1f2937;
     text-align: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 100px;
+}
